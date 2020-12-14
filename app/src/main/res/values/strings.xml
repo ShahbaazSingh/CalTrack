@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Calorie Tracker</string>
+    <string name="nameInput">Name</string>
+    <string name="fatInput">Fat</string>
+    <string name="caloriesInput">Calories</string>
+    <string name="carbohydratesInput">Carbohydrates</string>
+    <string name="proteinInput">Protein</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="create_meal">Create Meal</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="delete">Delete</string>
+    <string name="welcome">Welcome!</string>
+    <string name="what_would_you_like_to_do">What would you like to do?</string>
+    <string name="meal_plan">Meal Plan</string>
+    <string name="workout_plan">Workout Plan</string>
+    <string name="track_your_workout">Track your workout.</string>
+    <string name="create_meals_and_track_your_calories">Create meals and track your calories.</string>
+    <string name="select">Select</string>
+    <string name="add_meal">Add Meal</string>
+    <string name="calories_left">3000/3500</string>
+    <string name="macros_left">Fat: 20g/ Carbohydrates: 50g/ Protein: 30g</string>
+    <string name="IngredientName" />
+    <string name="macros" />
+    <string name="addIngredientConfirm">Add</string>
+    <string name="add_a_meal_name">Add a Meal Name</string>
+    <string name="add_a_meal">Add a Meal</string>
+    <string name="meal_name">Meal Name</string>
+    <string name="confirm">Confirm</string>
+    <string name="exit">Exit</string>
+    <string name="_1">1</string>
+    <string name="name">Name</string>
+    <string name="confirm_macros">Total Macros</string>
+</resources>

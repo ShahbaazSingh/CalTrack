@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewMealName"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:text="@string/IngredientName"
+        android:textStyle="bold"
+        tools:text="Ingredient Name" />
+
+    <TextView
+        android:id="@+id/textViewMacros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMealName"
+        android:layout_alignStart="@+id/textViewMealName"
+        android:layout_alignLeft="@+id/textViewMealName"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/macros"
+        android:textSize="12sp"
+        tools:text="Macro Count" />
+
+    <EditText
+        android:id="@+id/editTextNumberSelected"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewMealName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:autofillHints=""
+        android:descendantFocusability="afterDescendants"
+        android:ems="10"
+        android:hint="@string/_1"
+        android:inputType="number"
+        android:textSize="12sp"
+        tools:targetApi="o" />
+
+
+</RelativeLayout>
